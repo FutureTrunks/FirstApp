@@ -18,7 +18,7 @@ namespace WpfApp1
 {
     /// <summary>
     /// Interakční logika pro MainWindow.xaml
-    /// </summary> // xd aaaaasddd aa
+    /// </summary> // xd ajk
     public partial class MainWindow : Window
     {
         Random rnd = new Random();
@@ -29,7 +29,6 @@ namespace WpfApp1
             InitializeComponent();
 
             novyPriklad();
-            
         }
 
         public void novyPriklad()     // vygeneruje přiklad a spočítá ho.
@@ -41,7 +40,7 @@ namespace WpfApp1
             string priklad = "";
             priklad += cislo1;
 
-            switch (znaminko) {      //random znamínko
+            switch (znaminko) {      //random znamínko +-* podle int znaminko
                 case 1:
                     priklad += "+";
                     break;
