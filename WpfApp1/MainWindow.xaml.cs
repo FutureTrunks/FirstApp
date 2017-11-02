@@ -17,7 +17,7 @@ using System.Windows.Shapes;
 namespace WpfApp1
 {
     /// <summary>
-    /// Interakční logika pro MainWindow.xaml
+    /// Interakční logika pro MainWindow.xaml var records = engine.readfile();
     /// </summary> // xd ajk jestli je tohle poslední změna tak to funguje
     public partial class MainWindow : Window
     {
@@ -27,8 +27,8 @@ namespace WpfApp1
         public MainWindow()
         {
             InitializeComponent();
-
             novyPriklad();
+            
         }
 
         public void novyPriklad()     // vygeneruje přiklad a spočítá ho.
