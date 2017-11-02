@@ -18,7 +18,7 @@ namespace WpfApp1
 {
     /// <summary>
     /// Interakční logika pro MainWindow.xaml
-    /// </summary> // xd ajk
+    /// </summary> // xd ajk jestli je tohle poslední změna tak to funguje
     public partial class MainWindow : Window
     {
         Random rnd = new Random();
