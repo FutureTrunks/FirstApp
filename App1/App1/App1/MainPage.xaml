@@ -21,6 +21,7 @@
                HorizontalOptions="Center"/>
         <Entry x:Name="Nevim" Text="ahaha" Placeholder = "Palidrom?" TextChanged="Nevim_TextChanged" Grid.Row="1" Grid.Column="0" VerticalOptions="Center"
                HorizontalOptions="Center"></Entry>
+        <Label x:Name="random" Text="Tohle je random text podtím" Grid.Row="2"></Label>
     </Grid>
 
 </ContentPage>
