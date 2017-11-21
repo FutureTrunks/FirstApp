@@ -4,10 +4,23 @@
              xmlns:local="clr-namespace:App1"
              x:Class="App1.MainPage">
 
-	<Label Text="Dej mi slovo tady" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
-    <Entry Placeholder = "Palidrom?" TextChanged="Okay_TextChanged"></Entry>
-    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Label Text="Tohle slovo" Grid.Row="0" Grid.Column="0" 
+               VerticalOptions="Center"
+               HorizontalOptions="Center"/>
+        <Label Text="Neni palindrom" Grid.Row="0" Grid.Column="1"
+                VerticalOptions="Center"
+               HorizontalOptions="Center"/>
+        <Entry x:Name="Nevim" Text="ahaha" Placeholder = "Palidrom?" TextChanged="Nevim_TextChanged" Grid.Row="1" Grid.Column="0" VerticalOptions="Center"
+               HorizontalOptions="Center"></Entry>
+    </Grid>
 
 </ContentPage>
